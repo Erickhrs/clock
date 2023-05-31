@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px 0px black;
+    border-radius: 10px;
+}
+#hc, #mc, #sc{
+    border: 1px solid black;
+    width: 150px;
+    position: relative;
+    text-align: center;
+    border-radius: 6px;
+    background-color: black;
+    color: aliceblue;
+    margin: 5px;
+}
+body{
+    background-image: linear-gradient(to right, rgb(231, 59, 73), rgb(248, 245, 63));
+}
+
+
